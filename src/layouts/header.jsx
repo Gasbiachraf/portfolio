@@ -20,7 +20,7 @@ export const Componentheader = () => {
     return (
         <Navbar fluid className=' lg:pl-40 lg:pr-80 bg-[#032a31] text-[#36a99a]   fixed w-[100%] py-3  achraf'>
             <NavbarBrand  >
-                <div onClick={()=>{navigate('/Portfolio')}} smooth={true} duration={500} ><img className='w-[70px]' src={logo} alt="" /></div>
+                <div onClick={()=>{navigate('/portfolio')}} smooth={true} duration={500} ><img className='w-[70px]' src={logo} alt="" /></div>
                 <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white"></span>
             </NavbarBrand>
             <NavbarToggle />

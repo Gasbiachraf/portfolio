@@ -11,8 +11,8 @@ function App() {
     <MyProvider>
         <Componentheader/>
         <Routes >
-            <Route path='/Portfolio/*' element={<ErrorPage />} /> 
-            <Route path='/Portfolio' element={<HomePage />} />
+            <Route path='/portfolio/*' element={<ErrorPage />} /> 
+            <Route path='/portfolio' element={<HomePage />} />
         </Routes >
         <CompenentFooter/>
 
