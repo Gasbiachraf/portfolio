@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e178ab8b.css",
+    "main.js": "/portfolio/static/js/main.24515745.js",
+    "static/media/MPLUSRounded1c-Black.ttf": "/portfolio/static/media/MPLUSRounded1c-Black.82278fcd8098e1676253.ttf",
+    "static/media/MPLUSRounded1c-ExtraBold.ttf": "/portfolio/static/media/MPLUSRounded1c-ExtraBold.4a20a86eb7ec86deb698.ttf",
+    "static/media/shopSite.png": "/portfolio/static/media/shopSite.f6ed470d53aad76e4f0d.png",
+    "static/media/resto.png": "/portfolio/static/media/resto.4bccc4f991ae1d2f1a7e.png",
+    "static/media/About3.png": "/portfolio/static/media/About3.300a252a57f3c56cbd06.png",
+    "static/media/docteur.png": "/portfolio/static/media/docteur.03f858bb09c3ce926e8f.png",
+    "static/media/face.png": "/portfolio/static/media/face.1b62aaa22c73a418330b.png",
+    "static/media/body.png": "/portfolio/static/media/body.d8d1aa1423e808a76808.png",
+    "static/media/Contact.png": "/portfolio/static/media/Contact.bec32c1a1f60de5f9267.png",
+    "static/media/achrafface2.png": "/portfolio/static/media/achrafface2.63a205f42f38987d1361.png",
+    "static/media/GitBash.png": "/portfolio/static/media/GitBash.8fa70958960c0b9085e8.png",
+    "static/media/Tailwind.png": "/portfolio/static/media/Tailwind.3549d9e451d7abb96934.png",
+    "static/media/React.png": "/portfolio/static/media/React.b651ed8f9c447ce5a7ae.png",
+    "static/media/CV_ACHRAF_GASBI.pdf": "/portfolio/static/media/CV_ACHRAF_GASBI.096b931669534e4248ae.pdf",
+    "static/media/currency.png": "/portfolio/static/media/currency.0af29ab5117bd3d59e7e.png",
+    "static/media/Bootstrap.png": "/portfolio/static/media/Bootstrap.cb0fcc269e8250f3551b.png",
+    "static/media/CSS.png": "/portfolio/static/media/CSS.f5e741f72476c8ab1dca.png",
+    "static/media/logo2AGASBI.png": "/portfolio/static/media/logo2AGASBI.d5d86af08350e28253c8.png",
+    "static/media/HTML.png": "/portfolio/static/media/HTML.b9c4fe301fa1326493b9.png",
+    "static/media/js.png": "/portfolio/static/media/js.9b6ac391379340c88a1c.png",
+    "static/media/logo-portfolio.png": "/portfolio/static/media/logo-portfolio.20e5ad1c90e4ef95554c.png",
+    "index.html": "/portfolio/index.html",
+    "main.e178ab8b.css.map": "/portfolio/static/css/main.e178ab8b.css.map",
+    "main.24515745.js.map": "/portfolio/static/js/main.24515745.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e178ab8b.css",
+    "static/js/main.24515745.js"
+  ]
+}
