@@ -16,10 +16,10 @@ export const AboutSection = () => {
         <section name="about" className='flex justify-center  bg-[#032a31]  w-[100%] pt-16  '>
             <div className='w-[80%] max-[430px]:w-[90%] flex justify-between  flex-col  '>
                 <div className='flex max-[430px]:flex-col-reverse mt-4 '>
-                    <div className='mb-2   pl-4 max-[430px]:pl-0'>
+                    <div data-aos="fade-down"  data-aos-duration="1500" className='mb-2   pl-4 max-[430px]:pl-0'>
                         <img className='w-[80%]  max-[430px]:w-[100%]  max-[430px]:pt-6' src={About} alt="" />
                     </div>
-                    <div className='w-[110%] max-[430px]:w-[100%] pl-4 max-[430px]:pl-0 text-[#a9cfd0]'>
+                    <div data-aos="fade-up"  data-aos-duration="1500" className='w-[110%] max-[430px]:w-[100%] pl-4 max-[430px]:pl-0 text-[#a9cfd0]'>
                         <p className='text-6xl  text-[#36a99a] text-center mb-16 max-[430px]:mb-8 max-[430px]:text-5xl'>About me</p>
                         <p className=' text-xl max-[430px]:text-lg'>Hey there! I'm a web developer who thrives on turning ideas into interactive experiences. With a focus on both frontend and backend development, I bring websites to life with clean code and sleek designs. I'm passionate about creating intuitive user interfaces that engage and inspire. Let's work together to build something amazing!</p>
                         <div className=' max-[430px]:flex-col-reverse  max-[430px]:flex'>

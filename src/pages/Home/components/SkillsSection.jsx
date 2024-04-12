@@ -54,7 +54,7 @@ export const SkillsSection = () => {
 
                 {skillsLogo.map((element, index) => 
                 <>
-                <div className="w-[100%] max-[430px]:w-[42%] flex flex-col items-center  ">
+                <div data-aos="flip-left"  data-aos-duration="2000" className="w-[100%] max-[430px]:w-[42%] flex flex-col items-center  ">
                     <img className="w-[7vw] h-[15vh] max-[430px]:w-[80%] max-[430px]:h-[18vh] shadow-lg shadow-[#36a99a] rounded-3xl p-3" src={element.img} alt="" />
                     <p className="text-2xl pt-4">{element.titre}</p>
                 </div>

@@ -43,7 +43,9 @@ export const ProjectsSection = () => {
                     {
                         projects.map((element, index) =>
                             <>
-                                <Card key={index} 
+                                <Card key={index}
+                                    data-aos="fade-up"
+                                    data-aos-duration="2000"
                                     className="max-w-lg w-[48%] max-[430px]:w-[100%] bg-[#032a31] shadow-lg shadow-[#36a99a]  border-0 "
                                     imgAlt="Meaningful alt text for an image that is not purely decorative"
                                     imgSrc={element.img}
