@@ -26,7 +26,7 @@ export const FirstSectionHome = () => {
         <>
             <link rel="icon" src={logo} />
             <title>Achraf GASBI</title>
-            <main name="home" className='bg-[#032a31] text-[#a9cfd0]   pt-24 flex justify-between  w-[100%] flex-col'>
+            <main name="home" className='bg-[#032a31] text-[#a9cfd0]   pt-24 flex justify-between  w-[100vw] flex-col'>
                 <section  className='flex justify-center  w-[100%]'>
                     <div className='w-[80%] flex justify-between  max-[430px]:flex-col-reverse max-[430px]:items-center'>
                         <div  data-aos="fade-down-right"  data-aos-duration="1500" className=' flex flex-col justify-center w-[50%] max-[430px]:w-[95%] '>
