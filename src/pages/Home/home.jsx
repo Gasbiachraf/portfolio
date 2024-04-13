@@ -7,12 +7,11 @@ import { SkillsSection } from './components/SkillsSection';
 export const HomePage = () => {
     return (
         <>
-            <FirstSectionHome/>
+            <FirstSectionHome/> 
             <AboutSection/>
             <SkillsSection/>
             <ProjectsSection/>
             <ContactSection/>
-
         </>
     );
 }

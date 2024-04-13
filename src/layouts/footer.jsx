@@ -10,7 +10,7 @@ export const CompenentFooter = () => {
     return (
 
         <>
-            <footer className='bg-[#032a31] text-[#a9cfd0] '>
+            <footer className='bg-[#032a31] text-[#a9cfd0] w-full '>
                 <div className="pt-16 ">
                     <p className="text-center">&copy;&nbsp; copyright 2024</p>
                 </div>
