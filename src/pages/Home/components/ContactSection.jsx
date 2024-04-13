@@ -39,7 +39,7 @@ export const ContactSection = () => {
 
 
     return (
-        <section name='contact' className="bg-[#032a31] text-[#a9cfd0] w-full flex flex-col items-center ">
+        <section name='contact' className="bg-[#032a31] text-[#a9cfd0] w-full flex flex-col items-center overflow-hidden ">
             <p className="text-6xl text-[#36a99a] text-center pt-16 max-[430px]:text-5xl">Contact Me</p>
             <div className='flex justify-between items-center   max-[430px]:flex-col w-[80%] h-[80%] '>
                 <img data-aos="fade-down-right"  data-aos-duration="2000" className='w-[40%]  max-[430px]:w-[100%] h-[100%]' src={contact} alt="" />

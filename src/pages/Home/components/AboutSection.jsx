@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 export const AboutSection = () => {
     return (
 
-        <section name="about" className='flex justify-center  bg-[#032a31] w-full pt-16  '>
+        <section name="about" className='flex justify-center  bg-[#032a31] w-full pt-16 overflow-hidden '>
             <div className='w-[80%] max-[430px]:w-[90%] flex justify-between  flex-col  '>
                 <div className='flex max-[430px]:flex-col-reverse mt-4 '>
                     <div data-aos="fade-down"  data-aos-duration="1500" className='mb-2   pl-4 max-[430px]:pl-0'>

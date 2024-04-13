@@ -18,8 +18,9 @@ export const Componentheader = () => {
     const navigate = useNavigate()
 
     return (
-        <div className='w-full'>
-            <Navbar fluid className=' lg:pl-40 lg:pr-80 bg-[#032a31] text-[#36a99a]  fixed   py-3  w-full   achraf '>
+       
+        
+            <Navbar fluid className=' lg:pl-40 lg:pr-80 bg-[#032a31] text-[#36a99a]  fixed   py-3  w-screen   achraf '>
                 <NavbarBrand  >
                     <div onClick={() => { navigate('/') }} smooth={true} duration={500} ><img className='w-[70px]' src={logo} alt="" /></div>
                     <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white"></span>
@@ -32,8 +33,7 @@ export const Componentheader = () => {
                     <Link className='  hover:text-[#f2fdf7] hover:scale-110 duration-200 text-xl cursor-pointer max-[430px]:pl-4' to='projects' smooth={true} duration={500} >Projects</Link>
                     <Link className='  hover:text-[#f2fdf7] hover:scale-110 duration-200 text-xl cursor-pointer max-[430px]:pl-4 ' to='contact' smooth={true} duration={500}  >Contact</Link>
                 </NavbarCollapse>
-            </Navbar>
-        </div>
+            </Navbar> 
     );
 }
 

@@ -48,7 +48,7 @@ export const SkillsSection = () => {
         
     ])
     return (
-        <section name="skills" className="bg-[#032a31] text-[#a9cfd0] pt-16 w-full max-[430px]:px-6">
+        <section name="skills" className="bg-[#032a31] text-[#a9cfd0] pt-16 w-full max-[430px]:px-6 overflow-hidden">
             <p className="text-6xl text-[#36a99a] text-center max-[430px]:text-5xl">Skills</p>
             <div className="flex max-[430px]:flex-wrap pt-10 px-16  max-[430px]:px-0 justify-center max-[430px]:gap-x-10  max-[430px]:gap-y-8">
 
