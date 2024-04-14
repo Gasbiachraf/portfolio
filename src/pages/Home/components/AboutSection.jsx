@@ -16,12 +16,12 @@ export const AboutSection = () => {
         <section name="about" className='flex justify-center  bg-[#032a31] w-full pt-16 overflow-hidden '>
             <div className='w-[80%] max-[430px]:w-[90%] flex justify-between  flex-col  '>
                 <div className='flex max-[430px]:flex-col-reverse mt-4 '>
-                    <div data-aos="fade-down"  data-aos-duration="1500" className='mb-2   pl-4 max-[430px]:pl-0'>
+                    <div data-aos="fade-down" data-aos-duration="1500" className='mb-2   pl-4 max-[430px]:pl-0'>
                         <img className='w-[80%]  max-[430px]:w-full max-[430px]:pt-6' src={About} alt="" />
                     </div>
-                    <div data-aos="fade-up"  data-aos-duration="1500" className='w-[110%] pl-4 max-[430px]:pl-0 text-[#a9cfd0]'>
+                    <div data-aos="fade-up" data-aos-duration="1500" className='w-[110%] pl-4 max-[430px]:pl-0  max-[430px]:px-4   text-[#a9cfd0]'>
                         <p className='text-6xl  text-[#36a99a] text-center mb-16 max-[430px]:mb-8 max-[430px]:text-5xl'>About me</p>
-                        <p className=' text-xl max-[430px]:text-lg'>Hey there! I'm a web developer who thrives on turning ideas into interactive experiences. With a focus on both frontend and backend development, I bring websites to life with clean code and sleek designs. I'm passionate about creating intuitive user interfaces that engage and inspire. Let's work together to build something amazing!</p>
+                        <p className=' text-xl max-[430px]:text-lg max-[430px]:pr-6'>Hey there! I'm a web developer who thrives on turning ideas into interactive experiences. With a focus on both frontend and backend development, I bring websites to life with clean code and sleek designs. I'm passionate about creating intuitive user interfaces that engage and inspire. Let's work together to build something amazing!</p>
                         <div className=' max-[430px]:flex-col-reverse  max-[430px]:flex'>
                             <div className='flex pl-3 max-[430px]:pl-0  pt-14  max-[430px]:pt-2 gap-16 max-[430px]:gap-2 max-[430px]:flex-col '>
                                 <div className=' flex w-[100%]  gap-4'>
@@ -45,7 +45,7 @@ export const AboutSection = () => {
                             </div>
                         </div>
                         <div className='flex justify-center mt-16 max-[430px]:mt-8'>
-                            <div className=' flex justify-around max-[430px]:justify-evenly w-[60%] max-[430px]:w-[100%] text-4xl '>
+                            <div className=' flex justify-around max-[430px]:justify-evenly max-[430px]:pr-4 w-[60%] max-[430px]:w-[100%] text-4xl '>
                                 <Link target='_blank' to="https://www.linkedin.com/in/achraf-gasbi-02210823a/"><ImLinkedin className='rounded-full hover:text-[#36a99a] duration-200 ' /></Link>
                                 <Link target='_blank' to="https://github.com/Gasbiachraf"><FaGithub className='rounded-full hover:text-[#36a99a] duration-200 ' /></Link>
                                 <Link target='_blank' to="https://twitter.com/gasbi_achraf"><FaXTwitter className='rounded-full bg-[#a9cfd0] text-[#032a31] p-1 hover:bg-[#36a99a] duration-200' /></Link>
