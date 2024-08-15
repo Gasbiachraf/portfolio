@@ -39,7 +39,7 @@ export const ProjectsSection = () => {
         <section name="projects" className="bg-[#032a31] text-[#a9cfd0] w-full pt-16 overflow-hidden">
             <p className="text-6xl text-[#36a99a] text-center max-[430px]:text-5xl pb-16">Projects</p>
             <div className='flex justify-center pb-6 '>
-                <div className='flex flex-wrap   gap-y-10 gap-x-10  w-[70vw] max-[430px]:w-[90%] max-[430px]:px-0  '>
+                <div className='flex flex-wrap   gap-y-10 gap-x-10  w-[80vw] max-[430px]:w-[80%] max-[430px]:px-0  '>
                     {
                         projects.map((element, index) =>
                             <>
