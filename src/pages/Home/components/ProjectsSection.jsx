@@ -2,6 +2,7 @@ import resto from '../../../assets/img/resto.png'
 import currency from '../../../assets/img/currency.png'
 import shopSite from '../../../assets/img/shopSite.png'
 import docteur from '../../../assets/img/docteur.png'
+import babytoys from '../../../assets/img/babytoys.png'
 import { useState } from 'react'
 
 import { Card } from 'flowbite-react';
@@ -13,26 +14,37 @@ export const ProjectsSection = () => {
             paragraph: 'Explore our varied online selection of trendy, high-quality products to suit every style and budget.',
             titre: 'Store website',
             img: shopSite,
+            link : "https://storefash.vercel.app/",
 
         },
         {
             paragraph: 'Medical practice dedicated to your health, offering personalized consultations and attentive care.',
             titre: 'Medical practice website',
             img: docteur,
+            link : "https://mediplusag.netlify.app/",
 
         },
         {
             paragraph: 'Explore the selection of delicious dishes online and discover the creators of these culinary masterpieces.',
             titre: 'Restaurant website',
             img: resto,
+            link : "https://lionsresto.netlify.app/",
 
         },
         {
             paragraph: 'Discover current cryptocurrency trends with real-time analytics and up-to-date data using API.',
             titre: 'Crypto-currency website',
             img: currency,
+            link : "https://currency-app-weld.vercel.app/",
 
-        }
+        },
+        {
+            paragraph: 'Explore our diverse online collection of stylish, high-quality baby toys designed to suit every developmental stage and budget.',
+            titre: 'Baby-toys website',
+            img: babytoys,
+            link : "https://baby-toys-store-jwm16phpl-gasbiachrafs-projects.vercel.app/",
+
+        },
     ])
 
     return (
@@ -44,9 +56,11 @@ export const ProjectsSection = () => {
                         projects.map((element, index) =>
                             <>
                                 <Card key={index}
+                                    href={element.link}
+                                    target='blank'
                                     data-aos="fade-up"
                                     data-aos-duration="2000"
-                                    className="max-w-lg w-[48%] max-[430px]:w-[100%] bg-[#032a31] shadow-lg shadow-[#36a99a]  border-0 "
+                                    className="max-w-lg hover:bg-transparent w-[48%] max-[430px]:w-[100%] bg-[#032a31] shadow-lg shadow-[#36a99a]  border-0 "
                                     imgAlt="Meaningful alt text for an image that is not purely decorative"
                                     imgSrc={element.img}
                                 >
