@@ -42,7 +42,7 @@ export const ProjectsSection = () => {
             paragraph: 'Explore our diverse online collection of stylish, high-quality baby toys designed to suit every developmental stage and budget.',
             titre: 'Baby-toys website',
             img: babytoys,
-            link : "https://baby-toys-store-jwm16phpl-gasbiachrafs-projects.vercel.app/",
+            link : "https://baby-toys-store.vercel.app/",
 
         },
     ])
