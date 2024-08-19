@@ -54,8 +54,8 @@ export const ProjectsSection = () => {
     return (
         <section name="projects" className="bg-[#032a31] text-[#a9cfd0] w-full pt-16 overflow-hidden">
             <p className="text-6xl text-[#36a99a] text-center max-[430px]:text-5xl pb-16">Projects</p>
-            <div className='flex justify-center  pb-6 '>
-                <div className='flex flex-wrap    gap-y-10 gap-x-10  w-[90%] max-[430px]:w-[80%] max-[430px]:px-0  '>
+            <div className='flex justify-center   pb-6 '>
+                <div className='flex flex-wrap     gap-y-10 gap-x-8  w-[80%] max-[430px]:w-[80%] max-[430px]:px-0  '>
                     {
                         projects.map((element, index) =>
                             <>
@@ -64,7 +64,7 @@ export const ProjectsSection = () => {
                                     target='blank'
                                     data-aos="fade-up"
                                     data-aos-duration="2000"
-                                    className="max-w-lg hover:bg-transparent w-[31%] max-[430px]:w-[100%] bg-[#032a31] shadow-lg shadow-[#36a99a]  border-0 "
+                                    className=" w-[48%]  max-[430px]:w-[100%]  bg-[#032a31] shadow-lg shadow-[#36a99a]   border-0 hover:bg-black hover:bg-opacity-60 hover:b hover:duration-500 "
                                     imgAlt="Meaningful alt text for an image that is not purely decorative"
                                     imgSrc={element.img}
                                 >
